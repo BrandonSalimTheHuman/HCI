@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'baefont_normalregular';
+    src: url('baefont_normal-regular_v1-webfont.woff2') format('woff2'),
+         url('baefont_normal-regular_v1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media (max-width: 1000px) {
+  .menu-preset {
+    flex-direction: column;
+    gap:6vh;
+  }
+  .set {
+    width: 200px;
+    margin: 3.5px;
+  }
+}
+
+@media (max-width: 670px) {
+  .set {
+    width: 120px;
+    margin: 1px;
+  }
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Times New Roman";
+    font-size: 45px;
+  }
+    
+  h1  {
+    font-size: 50px;
+    font-family: monospace, Times, serif;
+    text-align: center;
+    border: 3px solid #36013f;
+    background-color: #EE82EE;
+  }
+
+  h3 {
+    font-size: 13px;
+    font-family: baefont_normalregular;
+    color: black;
+    margin-bottom: 14px;
+  }
+
+  p {
+    font-size: 30px;
+    font-family: baefont_normalregular;
+    text-align: center; 
+    margin-bottom: 10px;
+    color: black; 
+  }
+
+  a {
+    font-size: 40px;
+    font-family: baefont_normalregular;
+  }
+
+  img {
+    margin-bottom: 5vh;
+  }
+
+  .menu-preset {
+    display: flex;
+    flex-direction: row;
+    border: 2vg solid black;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    flex-grow: 25px;
+    justify-content: space-evenly;
+    padding: 4vh;
+    color: ivory;
+  }
+
+  .set {
+    background-color: #EE82EE;
+    border-radius: 25px;
+    border: 3px solid #36013f;
+    justify-content: center;
+    width: 325px;
+    height: 475px;
+    margin: 5px;
+    text-align: center;
+  }
